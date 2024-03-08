@@ -1,0 +1,54 @@
+@media screen and (max-width: 736px) {
+	.left{display: none;}
+	.media {display: none; position: absolute; position: fixed; height: 100vh; z-index: 999; top: 55px;}
+	.right{display: none;}
+	.header_search{display: none;}
+	.content_contact{display: block;}
+}
+
+@media screen and (max-width: 375px) {
+	.header {justify-content: unset; position: fixed; width: 100%; z-index: 9999;}
+	.header_bars {display: block; color: #FFF; margin-left: 10px; font-size: 20px}
+	.header_logo {text-align: center; flex: 1;}
+	.content_conteiner_desc {margin: 0; padding: 10px;}
+	.content_conteiner_desc_btn {text-align: center;}
+	.content_conteiner_desc_btn a {padding: 10px 75px;}
+	.desc_box {display: block;}
+	.content {margin-top: 45px;}
+	.content_conteiner_mini {width: 200px; margin: 0 auto;}
+	.content_conteiner_mini::after {display: none;}
+	.content_view {max-width: 350px;}
+	.content_nav {display: none;}
+	.content_view_rek_mini img {width: 60px;height: 60px;}
+	.pop_link {left: 8%;}
+	.form_update textarea {width: 90%;}
+	.form_update input {width: 90%;}
+	.content_conteiner_header_admin {padding: 0; margin: 0;}
+	.content_conteiner_desc {width: 100%;}
+	.img_gif {width: 100%;}
+	.content_view_author_top_box span {font-size: 12px;}
+	.content_view_author_top_box_ico i {font-size: 15px; margin-top: 20px;}
+	.content_conteiner_desc_author span {font-size: 13px; margin-right: 5px; padding: 10px 0px;}
+}
+
+@media screen and (max-width: 414px) {
+	.content_conteiner_desc_btn a {padding: 10px 75px;}
+}
+
+@media screen and (max-width: 667px) {
+	.content_conteiner_desc_button {display: block;}
+	.content_conteiner_desc_author {text-align: center;}
+	.content_conteiner_desc_author img {left: 10px;}
+	.content_conteiner_desc_author span {margin-right: 5px; margin-right: 5px;}
+	.header {justify-content: unset; position: fixed; width: 100%; z-index: 9999;}
+	.header_bars {display: block; color: #FFF; margin-left: 10px; font-size: 20px}
+	.header_logo {text-align: center; flex: 1;}
+	.content_conteiner_desc_btn {text-align: center; margin-top: 20px;}
+	.content_conteiner_desc_btn a {padding: 10px 115px;}
+	.desc_box {display: block;}
+	.content {margin-top: 45px;}
+	.content_conteiner_mini {width: 200px; margin: 0px auto; margin-bottom: 20px;}
+	.footer_logo {display: none;}
+	.content_conteiner_mini::after {display: none;}
+	.linkslot {width: 350px;}
+}
